@@ -1,0 +1,115 @@
+/* navbar Starts */
+.wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar{
+    width:0px; 
+    height: 100%;
+    right:0px;
+    top:0px;
+    background: #4b4276;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  .small{
+      position:absolute;
+      height:350px;
+      width:15px;
+      right: 0px;
+      top:150px;
+      background-color: orangered;
+  }
+
+.small:hover .sidebar{
+    width: 60px;
+}
+
+.icons{
+    position: relative;
+    line-height: 70px;
+    top:100px;
+    color: blue;
+    padding-left: 5px;
+}
+.icons:hover{
+    color: white;
+}
+.i1{
+    padding-left: 7px;
+}
+/* navbar Ends*/
+
+.team-content {
+    width: 70%;
+    /* height:50%; */
+    left: -160px;
+    top:-160px;
+    padding: 0 4%;
+    margin: 400px;
+    position: absolute;
+    background-color: #cacad1;
+    border:1px solid black;
+}
+
+.team {
+    left:10%;
+    width:180px;
+    height:180px;
+    padding-top:20%;
+    position:relative;
+
+}
+.team1{
+    left:60%;
+    width: 180px;
+    height: 180px;
+    position:relative;
+    top: 0px;
+    
+}
+.team2 {
+    padding-top:5%;
+    left:10%;
+    position:relative;
+    width: 180px;
+    height: 180px;
+
+}
+.team3 {
+    left:60%;
+    position:relative;
+    width: 180px;
+    height: 180px;
+    top:-130px;
+
+}
+.team img{
+width: 180px;
+height: 180px;
+}
+
+.icon {
+    margin: 10px;
+    height: 200px;
+    border-radius: 30%;
+    justify-content: center;
+    align-items: center;
+    background-position: 0px;
+    background-size: 100px;
+}
+.img1{
+width: 180px;
+height: 180px;
+}
+.team-content .team-title {
+    width: 110%;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+    /*text-transform: uppercase;*/
+    letter-spacing: 4px;
+}
