@@ -1,0 +1,5 @@
+{
+    "activestate.promptRuntimeCreation": false,
+    "python.linting.enabled": false,
+    "python.pythonPath": "env\\Scripts\\python.exe"
+}
